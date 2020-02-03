@@ -66,6 +66,7 @@ body {
     width:60%;
     height: inherit;
     overflow: auto;
+    align-items: center;
 }
 
 #left h1 {
@@ -91,6 +92,13 @@ span#heading-primary-sub{
 #services {
     padding-bottom: 5%;
     text-transform: uppercase;
+    align-self: flex-start;
+    padding-left: 10%;
+}
+
+p#contact {
+    align-self: flex-start;
+    padding-left: 10%;
 }
 
 #services h2 {
