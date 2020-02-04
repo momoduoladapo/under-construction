@@ -271,13 +271,99 @@ p#copyright {
 
 /* Medium devices (landscape tablets, 768px and down) */
 @media all and (min-width: 480px) and (max-width: 768px) {
+    body{
+        background-image: linear-gradient(
+        180deg, rgba(255, 255, 255, 0.92) 8%,
+        rgba(204, 51, 51, 0.8648) 8%, 
+        rgba(255, 51, 51, 0.8648) 71.88%, 
+        rgba(255, 102, 51, 0.8648) 92.16%), 
+        url(../img/hero.jpg);
+    }
+    
     #header img {
-        height: 50%;
-        margin-top: 5%;
+        height: 70%;
+        margin-top: 2%;
     }
 
     #social{
-        width:60vw;
+        width:30vw;
+    }
+
+    #social a i {
+        color:#cc3333; 
+        font-size: 2rem;
+    }
+
+    #main {
+        flex-direction: column;
+    }
+
+    #left {
+        width: 100%;
+        padding: 10% 0 5%;
+        align-content: center;
+    }
+
+    #left h1 {
+        padding-bottom: 10%;
+    }
+
+    span#heading-primary-main {
+        display: block;
+        font-size: 4rem;
+        text-transform: uppercase;
+        line-height: 139.9%;
+        letter-spacing: 0.65em;
+        padding-left: 3%;
+    }
+    
+    span#heading-primary-sub{
+        display: block;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        line-height: 139.9%;
+        letter-spacing: 0.62em;
+        padding-left: 3%;
+    }
+
+    #services {
+        padding-bottom: 7%;
+        padding-left: 3%;
+    }
+
+    #services h2 {
+        font-size: 2.5rem;
+        margin-bottom: 7%;
+    }
+    
+    #services ul li {
+        list-style-type: none;
+        font-size: 1rem;
+    }
+    
+    p#contact {
+       font-size: 1rem;
+       padding-left: 3%;
+    }
+
+    p#message, p#copyright {
+        font-size: 1rem;
+        padding-bottom: 5%;
+    }
+
+    #right {
+        width:100%
+    }
+
+    input#submit {
+        width:30%;
+        padding: 2% 5%;
+        font-weight: 900;
+        font-family: Roboto, sans-serif;
+        color: #cc3333;
+        background-color: #fff;
+        align-self: center;
+        margin-bottom: 10%;
     }
 }
 
